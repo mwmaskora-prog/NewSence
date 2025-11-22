@@ -1,7 +1,6 @@
 import { GoogleGenAI, Chat } from "@google/genai";
 
-// Initialize Gemini AI client
-// IMPORTANT: Use Vite's environment variable format
+// Initialize Gemini AI client USING VITE ENV VARIABLE
 const ai = new GoogleGenAI({
   apiKey: import.meta.env.VITE_API_KEY,
 });
